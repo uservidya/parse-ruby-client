@@ -1,3 +1,5 @@
+Note: This project has ceased to be. Please check out the official fork at [here](http://github.com/adelevie/parse-ruby-client)..
+
 # Ruby Client for parse.com REST API
 
 This file implements a simple Ruby client library for using Parse's REST API.
