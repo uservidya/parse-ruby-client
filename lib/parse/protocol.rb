@@ -131,6 +131,8 @@ module Parse
     ERROR_EXCEEDED_BURST_LIMIT = 155
     ERROR_OBJECT_NOT_FOUND_FOR_GET = 101
 
+    INSTALLATIONS_PATH = "installations"
+
     # URI Helpers
     # ----------------------------------------
 
@@ -171,6 +173,10 @@ module Parse
 
     def Protocol.batch_request_uri
       "/#{VERSION}/#{BATCH_REQUEST_URI}"
+    end
+
+    def Protocol.installations_uri
+      "/#{VERSION}/#{INSTALLATIONS_PATH}"
     end
   end
 end
