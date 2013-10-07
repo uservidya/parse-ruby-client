@@ -6,3 +6,4 @@ rvm:
 
 env:
  - PARSE_APPLICATION_ID=Slw1ACyMSVguo79pWvfIq15pkUjfwTLNPpL4984b PARSE_REST_API_KEY=qJKM8CGOAn70WOyR16f16YbyKWM0nBJCEbbtAMOm
+ - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
